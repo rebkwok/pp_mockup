@@ -1,0 +1,1 @@
+web: gunicorn pole_performance:app --log-file -
