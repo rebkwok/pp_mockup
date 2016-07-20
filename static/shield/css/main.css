@@ -120,17 +120,22 @@ border-color: transparent;
 background-color: #dadada;
 }
 
-
-.navbar-toggle {
-border-color: transparent;
-border: 0px solid transparent;
-}
-
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background-color: #16a085;
 	color: white;
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #999;
+}
+.navbar-inverse .navbar-toggle {
+border-color: #999;
+}
+
 
 hr {
     position: relative;
@@ -639,5 +644,18 @@ a:after {
 
 }
 .gallery-box img:hover {
-    opacity: .5;
+    opacity: .7;
+}
+
+.btn-purple {
+color: #fff;
+background-color: rgb(151, 10, 241);
+border: 2px solid rgb(151, 10, 241);
+}
+
+.btn-purple:hover {
+border: 2px solid rgb(151, 10, 241);
+text-decoration: none;
+color: rgb(151, 10, 241);
+background-color: transparent;
 }
